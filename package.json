@@ -1,0 +1,17 @@
+{
+  "name": "jsonwebtoken-test",
+  "version": "1.0.0",
+  "description": "test with jsonwebtoken, RS256",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080",
+    "postinstall": "sh ./create.certs.sh"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
